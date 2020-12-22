@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>This the title</title>
+</head>
+
+<body>
+    <ul id="v1">
+        <li>Room A</li>
+        <li>Room B</li>
+
+    </ul>
+    <form id="frm123">
+
+    </form>
+    <input type="text" id="inputRoom" />
+    <input type="button" value="Add a room" onclick="AddRoom()" />
+    <input type="button" value="Add a Text box" onclick="AddTextbox()" />
+
+    <script>
+        function AddTextbox() {
+            var frm = document.getElementById("frm123");
+            var input123 = document.createElement("input");
+            var br123 = document.createElement("br");
+
+            input123.type = "text";            frm.appendChild(input123);            frm.appendChild(br123);
+
+        }
+        function AddRoom() {
+            //// step 1 : get the reference of the list
+            //var list = document.getElementById("v1");
+            ////list.length + 1; // auto assign a new id to (newitem)
+            ////step 2 create a new li element with value room c
+            //var newItem = document.createElement("li");
+            //newItem.textContent = "Room C"; // hw take this value from text box
+            ////step 3 add that li eleemtn to the ui list
+            //list.appendChild(newItem);
+
+            //exercise 1: text box shld be cleared
+            // step 1 : get the reference of the list
+            var list = document.getElementById("v1");
+            var textbox = document.getElementById("inputRoom");
+            //step 2 create a new li element with value room c
+
+
+            var newItem = document.createElement("li");
+            newItem.textContent = textbox.value;
+            //step 3 add that li eleemtn to the ui list
+            list.appendChild(newItem);
+            //clear textbox
+            textbox.value = "";
+
+
+        }
+
+    </script>
+
+</body>
+</html>

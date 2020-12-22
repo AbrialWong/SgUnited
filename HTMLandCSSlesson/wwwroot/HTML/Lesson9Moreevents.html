@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>This the title</title>
+</head>
+
+<body onload="Init()">      <!--to do initialisation-->
+    <input type="text" id="txt1" onfocus="myfocus(this)" onblur="myblur(this)" /><br />
+    <input type="text" id="txt2" onkeypress="keypress()" onchange="change()" /><br />
+    <script>
+        function Init() {
+            alert("Initialized...");
+            document.getElementById("txt1").value = "Enter name...";
+            document.getElementById("txt2").value = "Enter address...";
+
+        }
+        function myfocus(txt) {
+            alert("focus....");
+            txt.style.background = "blue";
+        }
+        function myblur(txt) {
+            alert("Blur....");
+            txt.style.background = "white";
+        }
+        function change() { //when the old value and new value is not the same
+            alert("change....");
+        }
+        function keypress() {
+            alert("keypress....");
+        }
+    </script>
+
+
+</body>
+</html>

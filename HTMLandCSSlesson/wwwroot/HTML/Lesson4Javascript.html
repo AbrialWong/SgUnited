@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>This the title</title>
+</head>
+<body>
+    <script>
+        // literally way of creating object
+        var customer = {} // start with empty object
+        customer.name = "Shiv";  //adding properties
+        customer.address = "Test"; // adding properties
+        alert("Literal object"+customer.name);
+
+        //construtor way
+        function Customer() { //function
+            this.name = "";
+            this.address = "";
+        }
+        var x = new Customer();
+        x.name = "shiv"
+        alert("Constructor object" + customer.name);;
+        //var x = 10;
+        //var y = 10;
+        //var z = x + y;
+        //alert(z);
+        //if (x == y) {
+        //    alert("X and Y are the same");
+        //}
+        //else {
+        //    alert("X and Y are not the same");
+        //}
+    </script>
+</body>
+</html>
