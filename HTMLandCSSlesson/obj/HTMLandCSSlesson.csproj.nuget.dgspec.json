@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eunte\\source\\repos\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj": {}
+    "D:\\Programming Portfolio\\SGUnited\\SgUnited\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eunte\\source\\repos\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj": {
+    "D:\\Programming Portfolio\\SGUnited\\SgUnited\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eunte\\source\\repos\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj",
+        "projectUniqueName": "D:\\Programming Portfolio\\SGUnited\\SgUnited\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj",
         "projectName": "HTMLandCSSlesson",
-        "projectPath": "C:\\Users\\eunte\\source\\repos\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj",
-        "packagesPath": "C:\\Users\\eunte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eunte\\source\\repos\\HTMLandCSSlesson\\obj\\",
+        "projectPath": "D:\\Programming Portfolio\\SGUnited\\SgUnited\\HTMLandCSSlesson\\HTMLandCSSlesson.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming Portfolio\\SGUnited\\SgUnited\\HTMLandCSSlesson\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eunte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
